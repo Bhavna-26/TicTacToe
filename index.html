@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tic.css">
+</head>
+<body>
+    <h1 class="heading" id="heading">TIC TAC TOE</h1>
+    <div class="container" id="container">
+        <p class="first" id="first">Game starts by just tap on box</p>
+        <p class="second" id="second">First Player starts as <span> Player X</span></p>
+        <p class="third" id="third">And</p>
+        <p class="fourth" id="fourth">Second Player as <span> Player O</span> </p>
+    </div>
+    <div class="table" id="table">
+        <table class="tab" id="tab">
+            <tr>
+                <td class="btn" ><button  class="b"id="btn1" onclick="clicking1()"></button></td>
+                <td class="btn"><button class="b" id="btn2" onclick="clicking2()"></button></td>
+                <td class="btn" ><button class="b"id="btn3" onclick="clicking3()"></button></td>
+            </tr>
+            <tr>
+                <td class="btn" ><button class="b"id="btn4" onclick="clicking4()"></button></td>
+                <td class="btn" ><button class="b"id="btn5" onclick="clicking5()"></button></td>
+                <td class="btn"><button class="b" id="btn6" onclick="clicking6()"></button></td>
+            </tr>
+            <tr>
+                <td class="btn" ><button class="b"id="btn7" onclick="clicking7()"></button></td>
+                <td class="btn" ><button class="b"id="btn8" onclick="clicking8()"></button></td>
+                <td class="btn" ><button class="b"id="btn9" onclick="clicking9()"></button></td>
+            </tr>
+        </table>
+       
+    </div>
+    <button id="reset"onclick="reset()">RESET</button>
+    <div class="decide" id="decide">
+        <p class="d" id="d"></p>
+    </div>
+    <script src="tic.js"></script>
+</body>
+</html>
